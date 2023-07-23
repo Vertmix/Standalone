@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abe525cb-13b5-41c7-80ac-f5dbd1eb270d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/StandaloneApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/ClientBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/DataDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/DataSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/TargetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/PacketDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/PacketListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/PacketProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/PacketSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/PacketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/PacketWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/in/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/in/server/ServerModifyPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/in/server/ServerPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/out/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/out/player/PlayerMessagePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/out/player/PlayerPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/out/player/PlayerTeleportPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/packet/packets/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/player/PlayerProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/redis/Redis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/redis/RedisCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/server/ServerStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/api/server/ServerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/fallback/Fallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/fallback/FallbackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/fallback/impl/FallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/listeners/PlayerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/listeners/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjcameron92/games/standalone/service/ServerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/routes.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2SwzKnkg4DZQOfj9AZwHdlV7Prw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="StandaloneApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjcameron92.games.standalone.StandaloneApp" />
+      <module name="standalone.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjcameron92.games.standalone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StandaloneApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abe525cb-13b5-41c7-80ac-f5dbd1eb270d" name="Changes" comment="" />
+      <created>1690072369984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690072369984</updated>
+      <workItem from="1690072371029" duration="15855000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

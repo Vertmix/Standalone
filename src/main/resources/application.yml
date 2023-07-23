@@ -1,0 +1,5 @@
+redis:
+  address: 'localhost'
+  port: 6739
+  password: ''
+
