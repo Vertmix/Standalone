@@ -10,7 +10,6 @@ import org.pmw.tinylog.Logger;
 import redis.clients.jedis.*;
 
 import java.nio.charset.StandardCharsets;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
@@ -38,10 +37,10 @@ public class Redis {
         final JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxTotal(16);
 
-        if (credentials.password().trim().isEmpty()) {
-            this.jedisPool = new JedisPool(config, credentials.address(), credentials.port());
+        if (credentials.getPassword().trim().isEmpty()) {
+            this.jedisPool = new JedisPool(config, credentials.getAddress(), credentials.getPort());
         } else {
-            this.jedisPool = new JedisPool(config, credentials.address(), credentials.port(), 2000, credentials.password());
+            this.jedisPool = new JedisPool(config, credentials.getAddress(), credentials.getPort(), 2000, credentials.getPassword());
         }
 
         try (Jedis jedis = this.jedisPool.getResource()) {

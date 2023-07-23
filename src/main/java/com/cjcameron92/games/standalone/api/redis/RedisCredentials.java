@@ -1,4 +1,14 @@
 package com.cjcameron92.games.standalone.api.redis;
 
-public record RedisCredentials(String address, int port, String password) {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public class RedisCredentials {
+
+    private final String address;
+    private final int port;
+    private final String password;
+
 }
