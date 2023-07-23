@@ -1,4 +1,4 @@
-package com.cjcameron92.games.standalone.service;
+package com.cjcameron92.games.standalone.api.service;
 
 import com.cjcameron92.games.standalone.api.ClientBootstrap;
 import com.cjcameron92.games.standalone.api.redis.Redis;

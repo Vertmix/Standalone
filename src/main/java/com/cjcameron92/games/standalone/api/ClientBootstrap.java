@@ -8,15 +8,14 @@ import com.cjcameron92.games.standalone.api.player.PlayerProfile;
 import com.cjcameron92.games.standalone.api.redis.Redis;
 import com.cjcameron92.games.standalone.api.redis.RedisCredentials;
 import com.cjcameron92.games.standalone.api.server.Server;
-import com.cjcameron92.games.standalone.service.PlayerService;
-import com.cjcameron92.games.standalone.service.ServerService;
+import com.cjcameron92.games.standalone.api.service.PlayerService;
+import com.cjcameron92.games.standalone.api.service.ServerService;
 import com.google.common.eventbus.EventBus;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import lombok.Getter;
 import lombok.NonNull;
 
-import javax.annotation.Nonnull;
 import java.util.UUID;
 
 @Getter

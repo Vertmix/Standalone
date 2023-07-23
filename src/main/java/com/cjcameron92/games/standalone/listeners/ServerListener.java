@@ -1,13 +1,8 @@
 package com.cjcameron92.games.standalone.listeners;
 
 
-import com.cjcameron92.games.standalone.api.server.Server;
-import com.cjcameron92.games.standalone.api.server.ServerStatus;
-
 import com.cjcameron92.games.standalone.fallback.Fallback;
-import com.cjcameron92.games.standalone.fallback.FallbackStrategy;
-import com.cjcameron92.games.standalone.service.ServerService;
-import com.google.common.eventbus.Subscribe;
+import com.cjcameron92.games.standalone.api.service.ServerService;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

@@ -3,12 +3,8 @@ package com.cjcameron92.games.standalone.fallback.impl;
 import com.cjcameron92.games.standalone.api.server.Server;
 import com.cjcameron92.games.standalone.fallback.Fallback;
 import com.cjcameron92.games.standalone.fallback.FallbackStrategy;
-import com.cjcameron92.games.standalone.service.ServerService;
+import com.cjcameron92.games.standalone.api.service.ServerService;
 import lombok.AllArgsConstructor;
-import org.pmw.tinylog.Logger;
-
-import java.util.Comparator;
-import java.util.Optional;
 
 
 @AllArgsConstructor

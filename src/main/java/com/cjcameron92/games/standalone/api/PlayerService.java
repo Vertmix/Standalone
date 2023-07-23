@@ -1,14 +1,10 @@
-package com.cjcameron92.games.standalone.service;
+package com.cjcameron92.games.standalone.api.service;
 
 import com.cjcameron92.games.standalone.api.ClientBootstrap;
 import com.cjcameron92.games.standalone.api.player.PlayerProfile;
 import com.cjcameron92.games.standalone.api.redis.Redis;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-import com.google.common.cache.CacheLoader;
-import com.google.common.util.concurrent.Futures;
-import com.google.common.util.concurrent.ListenableFuture;
-import com.google.common.util.concurrent.MoreExecutors;
 
 import redis.clients.jedis.Jedis;
 
