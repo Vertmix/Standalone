@@ -1,5 +1,7 @@
 plugins {
     id("java")
+    `maven-publish`
+
 }
 
 group = "com.cjcameron92.games"
