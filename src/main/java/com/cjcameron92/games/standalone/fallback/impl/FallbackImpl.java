@@ -20,15 +20,6 @@ public class FallbackImpl implements Fallback {
     public void fallback(Server server, FallbackStrategy strategy) {
         // TODO: 2023-07-22 Implement logic for fallback
 
-        if (strategy == FallbackStrategy.MIN_PLAYERS) {
-            final Optional<Server> optionalServer = service.getServers().stream().sorted(Comparator.comparingInt(Server::getOnline)).findFirst();
-            if (optionalServer.isPresent()) {
-                final Server targetServer = optionalServer.get();
 
-
-            } else {
-                Logger.error("Could not find a fallback server for fallback strategy " + strategy.name());
-            }
-        }
     }
 }
